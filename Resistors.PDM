@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=Four Band Resistor Settings
+
+
+[Package|Four Band Resistor Settings|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\PROJECTS\VB6 Projects\Four Band Resistors\Compiled
+
+[Package|Four Band Resistor Settings|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Four Band Resistor Settings|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Four Band Resistor Settings|Files Found]
+
+[Package|Four Band Resistor Settings|Files Released]
+
+[Package|Four Band Resistor Settings|Missing Dependency Information]
+
+[Package|Four Band Resistor Settings|Out-of-Date Dependency Information]
+
+[Package|Four Band Resistor Settings|Files Added]
+
+[Package|Four Band Resistor Settings|Files Removed]
+
+[Package|Four Band Resistor Settings|Files In Project]
+C:\My Documents\PROJECTS\VB6 Projects\Four Band Resistors\Resistors.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Four Band Resistor Settings|Configure Registry Files]
+Applicable=No
+
+[Package|Four Band Resistor Settings|Configure Remote Servers]
+Applicable=No
+
+[Package|Four Band Resistor Settings|Install Locations]
+C:\My Documents\PROJECTS\VB6 Projects\Four Band Resistors\Resistors.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Four Band Resistor Settings|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\PROJECTS\VB6 Projects\Four Band Resistors\Resistors.exe=No
+
+[Package|Four Band Resistor Settings|Distribution]
+Type=single
+Size=
+Title=Four Band Resistors
+
+[Package|Four Band Resistor Settings|IconGroups]
+Group0=Four Band Resistors
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Four Band Resistor Settings|Four Band Resistors]
+Icon1=Resistors.exe
+Title1=Four Band Resistors
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Four Band Resistor Settings|Package]
+PackageFolder=C:\My Documents\PROJECTS\VB6 Projects\Four Band Resistors\Compiled
+ProjectFolder=C:\My Documents\PROJECTS\VB6 Projects\Four Band Resistors
+ServerSideCab=
+File1=C:\My Documents\PROJECTS\VB6 Projects\Four Band Resistors\Compiled\setup.exe
+File2=C:\My Documents\PROJECTS\VB6 Projects\Four Band Resistors\Compiled\Setup.Lst
+File3=C:\My Documents\PROJECTS\VB6 Projects\Four Band Resistors\Compiled\Resistors.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
